@@ -24,7 +24,7 @@
 
         devShells.default = pkgs.mkShell {
           buildInputs = devTools;
-
+          
           shellHook = ''
             echo "Available commands:"
             echo "  cabal build     - Build the project"
